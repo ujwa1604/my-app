@@ -31,7 +31,7 @@ const togglemode = () =>{
     setmode('dark');
     document.body.style.backgroundColor ='#292252'; 
     showalert("Dark mode is enabled","success");
-    document.title ="TextUtils -Dark mode";
+   // document.title ="TextUtils -Dark mode";
 
   //  setInterval(() => {
   //    document.title="TextUtils is Amazing app";
@@ -45,7 +45,7 @@ const togglemode = () =>{
     setmode('light');
     document.body.style.backgroundColor ='white';
     showalert("light mode is enabled","success");
-    document.title ="TextUtils -light mode";
+   // document.title ="TextUtils -light mode";
 
   }
 }
@@ -85,7 +85,7 @@ const yellowmode=() =>{
             <About />
           </Route>    
  <Route exact path="/">*/}
-          <Textform showalert={showalert} heading="Enter the text to analyize below" mode={mode}/>
+          <Textform showalert={showalert} heading=" Try TextUtils - Word Counter,Character Counter, Clear Text" mode={mode}/>
           {/*</div></Route>
  </Switch>8/}
 
